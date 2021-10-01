@@ -1,0 +1,19 @@
+html,
+body,
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+
+.Parent{
+    font-size: 30px;
+    display: flex;
+}
+
+.child{
+    border: 10px;px rgba(247, 10, 49, 0.993);
+}
+
+
