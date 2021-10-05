@@ -10,12 +10,15 @@ body,
 .parent {
     font-size: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
 
 }
 
-.child{
+.hamburger{
     border: 1px solid red;
-    width: 30%;
+    width: 25%;
+    background-image: url(img/hamburger1.jpg);
+    height: 500px;
 }
 
