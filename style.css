@@ -7,13 +7,15 @@ body,
     font-size:62.5%;
 }
 
-.Parent{
+.parent {
     font-size: 30px;
     display: flex;
+    justify-content: space-between;
+
 }
 
 .child{
-    border: 10px;px rgba(247, 10, 49, 0.993);
+    border: 1px solid red;
+    width: 30%;
 }
-
 
