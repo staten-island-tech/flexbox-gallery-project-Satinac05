@@ -15,89 +15,107 @@ body,
 
 }
 
-.Child{
+.container{
+    display: flex;
+    flex-wrap: flex;
 
-    align-content: center;
 }
-
 .hamburger{
     border: 5px solid red;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/hamburger1.jpg);
     background-position: center;
-    background-size: 110%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
     text-align: center;
 }
 
 .Milkshake{
     border: 5px solid pink;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/milkshake.jpg);
-    background-size: 110%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
+    text-align: center;
 }
 
 .Cheeseburger{
     border: 5px solid red;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/cheeseburger.JPEG);
-    background-size: 110%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
+    text-align: center;
 }
 
 .PotatoChips{  
     border: 5px solid pink;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/chips.jpg);
-    background-size: 150%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;}
+    height: 400px;
+    text-align: center;
+}
+    
 
 .Doritos{
     border: 5px solid red;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/doritos.jfif);
-
-    background-size: 80%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
+    text-align: center;
 }
 
 .Nachos{
     border: 5px solid pink;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/Nachos.jpg);
-    background-size: 170%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
+    text-align: center;
 }
 
 .Milk{    
     border: 5px solid red;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/milk.jpg);
-    background-size: 110%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;}
+    height: 400px;
+    text-align: center;}
 
 .Water{
     border: 5px solid pink;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(img/water.jpg);
-    background-size: 110%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
+    text-align: center;
 }
 
 .gatorade{
     border: 5px solid red;
-    width: 25%;
+    padding: 20px;
+    width: 28%;
     background-image: url(gatorade.jfif);
-    background-size: 110%;
+    background-size: cover;
     background-repeat:no-repeat;
-    height: 500px;
+    height: 400px;
+    text-align: center;
 }
