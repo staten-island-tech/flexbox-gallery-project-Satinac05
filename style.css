@@ -1,8 +1,8 @@
 html,
 body,
 *{
-    padding: 0;
-    margin:0;
+    padding:0;
+    margin:auto;
     box-sizing: border-box;
     font-size:62.5%;
 }
@@ -10,15 +10,93 @@ body,
 .parent {
     font-size: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 
+}
+
+.Child{
+
+    align-content: center;
 }
 
 .hamburger{
-    border: 1px solid red;
+    border: 5px solid red;
     width: 25%;
     background-image: url(img/hamburger1.jpg);
+    background-size: 110%;
+    background-repeat:no-repeat;
+    height: 500px;
+    text-align: center;
+}
+
+.Milkshake{
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/milkshake.jpg);
+    background-size: 110%;
+    background-repeat:no-repeat;
     height: 500px;
 }
 
+.Cheeseburger{
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/cheeseburger.JPEG);
+    background-size: 110%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
+
+.PotatoChips{  
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/chips.jpg);
+    background-size: 150%;
+    background-repeat:no-repeat;
+    height: 500px;}
+
+.Doritos{
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/doritos.jfif);
+
+    background-size: 80%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
+
+.Nachos{
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/Nachos.jpg);
+    background-size: 170%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
+
+.Milk{    
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/milk.jpg);
+    background-size: 110%;
+    background-repeat:no-repeat;
+    height: 500px;}
+
+.Water{
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(img/water.jpg);
+    background-size: 110%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
+
+.gatorade{
+    border: 5px solid red;
+    width: 25%;
+    background-image: url(gatorade.jfif);
+    background-size: 110%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
