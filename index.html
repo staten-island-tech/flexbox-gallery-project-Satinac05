@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <title>Junkfood</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap">
     <style>
         body {
@@ -14,44 +14,73 @@
     </style>
 
 </head>
-</head>
+    <title>Junkfood</title>
+    <div class="header">
+        <h1>Fast Food Menu</h1>
+        <p>What America is known for</p>
+      </div>
+     
+     <section class="Menu Bar">
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        </script>
+      
+</section>
 
-<body>
-    <div class="parent parent intro">
-        <div class="Hamburger">Hamburger</div>
-        <div class="Milkshake">Milk Shake </div>
-        <div class="Cheeseburger">Cheeseburger</div>
-    </div>
-    <br />
-    <div class="parent parent spacing">
-        <div class="PotatoChips">Potato Chips</div>
-        <div class="Water">Water</div>
-        <div class="Nachos">Nachos</div>
-
-    </div>
-    <br />
-    <div class="parent parent flex ">
-        <div class="Milk">Milk</div>
-        <div class="Doritos">Doritos</div>
-        <div class="gatorade">Gatorade</div>
-    </div>
-</body>
 <section class="dropdown">
     <div>
-        <a href="#">Useless Link</a>
+        <a href="#">Shop</a>
+        <ul>
+            <li><a href="https://www.amazon.com/">Work here!</a> </li>
+        </ul>
         <ul>
             <li>
-                <a href="#">Dropdown Link</a>
+                <a href="#">Contact Us</a>
                 <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">CEO: Satina</a></li>
+                    <li><a href="#">Numbers</a></li>
+                
                 </ul>
             </li>
         </ul>
     </div>
 
 </section>
+    
+
+</head>
+
+<body>
+    <section class="gallery">
+    <div class="parent parent intro">
+        <button class="Hamburger">Hamburger</button>>
+        <button class="Milkshake">Milk Shake </button>
+        <button class="Cheeseburger">Cheeseburger</button>
+    </div>
+    <br />
+    <div class="parent parent spacing">
+        <button class="PotatoChips">Potato Chips</button>
+        <button class="Water">Water</button>
+        <button class="Nachos">Nachos</button>
+
+    </div>
+    <br />
+    <div class="parent parent flex ">
+        <button class="Milk">Milk</button>
+        <button class="Doritos">Doritos</button>
+        <button class="gatorade">Gatorade</button>
+    </div>
+</section>
+</body>
+<body> 
+</body>
 
 
 </html>

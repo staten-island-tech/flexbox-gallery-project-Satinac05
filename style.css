@@ -6,7 +6,17 @@ body,
     margin:25px 25px 50px 25px;
     box-sizing: border-box;
     font-size:62.5%;
+    background-color: black;
 }
+.header {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 50px;
+
+  }
+
 div {background-color: #100110;}
 div a {
   text-decoration: none;
@@ -21,7 +31,7 @@ ul {
   padding: 0;
 }
 ul li {display: inline-block;}
-ul li:hover {background: #555;}
+ul li:hover {background: white;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
@@ -29,11 +39,11 @@ ul li ul {
   display: none;
 }
 ul li ul li { 
-  background: #555; 
+  background: white; 
   display: block; 
 }
 ul li ul li a {display:block !important;} 
-ul li ul li:hover {background: #666;}
+ul li ul li:hover {background: white;}
 
 
 .parent {
@@ -43,10 +53,76 @@ ul li ul li:hover {background: #666;}
 
 }
 
-.container{
-    display: flex;
-    flex-wrap: flex;
-    
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}
+
+.clearfix::after {
+  content: "Hello";
+  clear: both;
+  display: table;
 }
 
 .hamburger{
@@ -61,6 +137,7 @@ ul li ul li:hover {background: #666;}
     background-repeat:no-repeat;
     height: 400px;
     text-align: center;
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -87,6 +164,7 @@ ul li ul li:hover {background: #666;}
     background-image: url(img/cheeseburger.JPEG);
     background-size: cover;
     background-repeat:no-repeat;
+    background-color: white;
     height: 400px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -176,4 +254,18 @@ ul li ul li:hover {background: #666;}
     height: 400px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
