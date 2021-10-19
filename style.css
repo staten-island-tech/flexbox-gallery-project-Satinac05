@@ -3,17 +3,18 @@ html,
 body,
 *{
     padding:0;
-    margin:25px 25px 50px 25px;
+    margin: 0;
     box-sizing: border-box;
     font-size:62.5%;
     background-color: black;
 }
 .header {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
+    margin:25px 25px 50px 25px;
     background: black;
     color: white;
-    font-size: 50px;
+    font-size: 5rem;
 
   }
 
@@ -21,8 +22,8 @@ div {background-color: #100110;}
 div a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
-  padding: 15px;
+  font-size: 2rem;
+  padding: 1.5rem;
   display:inline-block;
 }
 ul {
@@ -35,7 +36,7 @@ ul li:hover {background: white;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
-  width: 200px;
+  width: 20rem;
   display: none;
 }
 ul li ul li { 
@@ -59,66 +60,7 @@ ul li ul li:hover {background: white;}
     cursor: pointer;
   }
   
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
   
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
-
-
-.tab {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
-}
-
-.tab button {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  font-size: 17px;
-}
-
-.tab button:hover {
-  background-color: #ddd;
-}
-
-.tab button.active {
-  background-color: #ccc;
-}
-
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 300px;
-  display: none;
-}
-
 .clearfix::after {
   content: "Hello";
   clear: both;
@@ -127,6 +69,7 @@ ul li ul li:hover {background: white;}
 
 .hamburger{
     border: 5px solid red;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px plum;
     padding: 20px;
@@ -135,14 +78,17 @@ ul li ul li:hover {background: white;}
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     background-color: white;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 .Milkshake{
     border: 5px solid pink;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px red;
     padding: 20px;
@@ -150,13 +96,16 @@ ul li ul li:hover {background: white;}
     background-image: url(img/milkshake.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 .Cheeseburger{
     border: 5px solid red;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px plum;
     padding: 20px;
@@ -165,13 +114,16 @@ ul li ul li:hover {background: white;}
     background-size: cover;
     background-repeat:no-repeat;
     background-color: white;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 .PotatoChips{  
     border: 5px solid pink;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px red;
     padding: 20px;
@@ -179,13 +131,16 @@ ul li ul li:hover {background: white;}
     background-image: url(img/chips.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: bigger;
+    animation-duration: 4s;
 }
     
 .Water{
     border: 5px solid red;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px plum;
     padding: 20px;
@@ -193,14 +148,17 @@ ul li ul li:hover {background: white;}
     background-image: url(img/water.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 
 .Nachos{
     border: 5px solid pink;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px red;
     padding: 20px;
@@ -208,13 +166,16 @@ ul li ul li:hover {background: white;}
     background-image: url(img/Nachos.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 .Milk{    
     border: 5px solid red;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px plum;
     padding: 20px;
@@ -222,14 +183,17 @@ ul li ul li:hover {background: white;}
     background-image: url(img/milk.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 
 .Doritos{
     border: 5px solid pink;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px red;
     padding: 20px;
@@ -237,13 +201,16 @@ ul li ul li:hover {background: white;}
     background-image: url(img/doritos.jfif);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
 }
 
 .gatorade{
     border: 5px solid red;
+    margin:25px 25px 50px 25px;
     border-radius: 1.5rem;
     box-shadow:10px 5px 5px plum;
     padding: 20px;
@@ -251,21 +218,24 @@ ul li ul li:hover {background: white;}
     background-image: url(gatorade.jfif);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 400px;
+    height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    animation-name: smaller;
+    animation-duration: 4s;
+    
 }
 
-.button {
-  border-radius: 4px;
-  background-color: white;
-  border: none;
-  color: black;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+@keyframes smaller {
+  from {background-color: black;
+  height: 40rem;}
+  to {background-color: white;
+  height: 30rem}
+}
+
+@keyframes bigger {
+  from {
+    height: 40rem;}
+    to {
+    height: 50rem}
 }
