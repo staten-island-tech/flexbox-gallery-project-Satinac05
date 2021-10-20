@@ -82,8 +82,7 @@ ul li ul li:hover {background: white;}
     text-align: center;
     background-color: white;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
-    animation-duration: 4s;
+
 }
 
 .Milkshake{
@@ -99,8 +98,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
-    animation-duration: 4s;
+
 }
 
 .Cheeseburger{
@@ -117,8 +115,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
-    animation-duration: 4s;
+
 }
 
 .PotatoChips{  
@@ -134,7 +131,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: bigger;
+    animation-name: hvr-pulse-grow;
     animation-duration: 4s;
 }
     
@@ -151,7 +148,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
+    animation-name: hvr-pulse-grow;
     animation-duration: 4s;
 }
 
@@ -169,7 +166,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
+    animation-name: hvr-pulse-grow;
     animation-duration: 4s;
 }
 
@@ -186,7 +183,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
+    animation-name: hvr-pulse-grow;
     animation-duration: 4s;
 }
 
@@ -204,7 +201,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
+    animation-name: hvr-back-pulse;
     animation-duration: 4s;
 }
 
@@ -221,21 +218,19 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: smaller;
-    animation-duration: 4s;
-    
+
 }
 
-@keyframes smaller {
-  from {background-color: black;
-  height: 40rem;}
-  to {background-color: white;
-  height: 30rem}
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
 
-@keyframes bigger {
-  from {
-    height: 40rem;}
-    to {
-    height: 50rem}
-}
