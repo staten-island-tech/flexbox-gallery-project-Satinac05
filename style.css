@@ -82,8 +82,6 @@ ul li ul li:hover {background: white;}
     text-align: center;
     background-color: white;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-buzz-out;
-    animation-duration: 4s;
 
 }
 
@@ -100,8 +98,6 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-buzz-out;
-    animation-duration: 4s;
 
 }
 
@@ -119,8 +115,6 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-pulse-grow;
-    animation-duration: 4s;
 
 }
 
@@ -137,8 +131,6 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-ripple-in;
-    animation-duration: 4s;
 }
     
 .Water{
@@ -154,8 +146,6 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-pulse-grow;
-    animation-duration: 4s;
 }
 
 
@@ -172,8 +162,6 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-ripple-in;
-    animation-duration: 4s;
 }
 
 .Milk{    
@@ -189,8 +177,6 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-pulse-grow;
-    animation-duration: 4s;
 }
 
 
@@ -207,8 +193,7 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-ripple-out;
-    animation-duration: 4s;
+
 }
 
 .gatorade{
@@ -224,8 +209,44 @@ ul li ul li:hover {background: white;}
     height: 40rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    animation-name: hvr-ripple-out;
-    animation-duration: 4s;
+}
+.hamburger:hover{
+  animation-name: hvr-buzz-out;
+  animation-duration: 4s;
+}
+.Milkshake:hover{
+  animation-name: hvr-pulse-grow;
+  animation-duration: 4s;
+}
+.Cheeseburger:hover{
+  animation-name: hvr-buzz-out;
+  animation-duration: 4s;
+}
+.PotatoChips:hover{
+  animation-name: hvr-pulse-grow;
+  animation-duration: 4s;
+}
+.Water:hover{
+  animation-name: hvr-buzz-out;
+  animation-duration: 4s;
+}
+
+.Nachos:hover{
+  animation-name: hvr-buzz-out;
+  animation-duration: 4s;
+}
+
+.Milk:hover{
+  animation-name: hvr-pulse-grow;
+  animation-duration: 4s;
+}
+.gatorade:hover{
+  animation-name: hvr-pulse-grow;
+  animation-duration: 4s;
+}
+.Doritos:hover{
+  animation-name: hvr-ripple-out;
+  animation-duration: 4s;
 }
 
 @-webkit-keyframes hvr-pulse-grow {
@@ -338,3 +359,10 @@ ul li ul li:hover {background: white;}
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+@media only screen and (max-width: 768px)
+ {
+
+  div {
+    width: 100%;
+  }
