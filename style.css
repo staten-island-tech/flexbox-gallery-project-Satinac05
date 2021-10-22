@@ -50,6 +50,7 @@ ul li ul li:hover {background: white;}
 .parent {
     font-size: 5rem;
     display: flex;
+    flex: 0 45%;
     justify-content: space-evenly;
 
 }
@@ -360,9 +361,69 @@ ul li ul li:hover {background: white;}
   animation-iteration-count: 1;
 }
 
-@media only screen and (max-width: 768px)
- {
+@media screen and (max-width: 768px)
+{
+body{
+  width: auto;
+}
+.hamburger{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+.Milk{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+.Nachos{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+.PotatoChips{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+.Milkshake{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+.Water{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+.Cheeseburger{
+  box-shadow: 7px 7px white; 
+  font-style: italic;
+}
+}
 
-  div {
-    width: 100%;
-  }
+@media screen and (max-width: 400px) {
+
+.hamburger  {
+  box-shadow: 7px 7px blue; 
+font-style: bold;
+}
+.Milk{
+  box-shadow: 7px 7px blue; 
+  font-style: bold;
+}
+.Nachos{
+  box-shadow: 7px 7px blue; 
+  font-style: bold;
+}
+.PotatoChips{
+  box-shadow: 7px 7px blue; 
+  font-style: bold;
+}
+.Milkshake{
+  box-shadow: 7px 7px blue; 
+font-style: bold;
+}
+.Water{
+  box-shadow: 7px 7px blue; 
+font-style: bold;
+}
+.Cheeseburger{
+  box-shadow: 7px 7px blue; 
+font-style: bold;
+}
+}
