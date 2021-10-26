@@ -7,6 +7,7 @@ body,
     box-sizing: border-box;
     font-size:62.5%;
     background-color: black;
+    font-family: 'Roboto Mono', monospace;
 }
 .header {
     padding: 2rem;
@@ -61,11 +62,10 @@ ul li ul li:hover {background: white;}
     cursor: pointer;
   }
   
-  
-.clearfix::after {
-  content: "Hello";
-  clear: both;
-  display: table;
+.text{
+  color: black;
+  font-size: larger;
+  background-color: white;
 }
 
 .hamburger{
@@ -83,6 +83,7 @@ ul li ul li:hover {background: white;}
     text-align: center;
     background-color: white;
     font-family: 'Roboto Mono', monospace;
+  
 
 }
 
@@ -342,7 +343,7 @@ ul li ul li:hover {background: white;}
     transform: translateX(-1px) rotate(0);
   }
 }
-}
+
 .hvr-buzz-out {
   display: inline-block;
   vertical-align: middle;
@@ -363,42 +364,59 @@ ul li ul li:hover {background: white;}
 
 @media screen and (max-width: 768px)
 {
-body{
-  width: auto;
+.parent{
+  flex-direction: column;
+}
+.header{
+  margin: auto;
+}
 }
 .hamburger{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
 .Milk{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
 .Nachos{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
 .PotatoChips{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
 .Milkshake{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
 .Water{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
 .Cheeseburger{
   box-shadow: 7px 7px white; 
   font-style: italic;
+  width: 75%;
 }
+.Doritos{
+  width: 75%;
+}
+.gatorade{
+  width: 75%;
 }
 
 @media screen and (max-width: 400px) {
 
 .hamburger  {
+
   box-shadow: 7px 7px blue; 
 font-style: bold;
 }
